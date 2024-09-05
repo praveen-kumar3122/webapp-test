@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /restart-server.sh
-    destination: /opt/codedeploy-agent/deployment-root/c832c642-1454-4752-a199-4f1faa2a8afe/d-K1F9WFM17/deployment-archive/
+    destination: /opt/codedeploy-agent/deployment-root/c832c642-1454-4752-a199-4f1faa2a8afe/d-41X5HXM17/deployment-archive/restart-server.sh
 hooks:
   AfterInstall:
     - location: restart-server.sh
